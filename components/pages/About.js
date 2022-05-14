@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <img id="about-pic" src="../../assets/4056 (1).jpeg" alt="Picture of Daniel"></img>
+      <img id="about-pic" src="../../assets/4056 (1).jpeg" alt="Daniel in field at sundown"></img>
       <p>
       Developer Daniel Nelson comes to the world of full-stack coding by a circuitous path. Born and raised in Scotch Plains, New Jersey, 
       Daniel set out to pursue a STEM education at Cornell University, but ultimately found his way into music composition. After achieving 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { checkPassword, validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 function Contact() {
   // Create state variables for the fields in the form
@@ -46,7 +46,7 @@ function Contact() {
 
   return (
     <div>
-      <p>Please contact me for further information {userName}</p>
+      <p>Please contact me for further information {name}</p>
       <form className="form" id="contactForm">
         <input
           value={email}
