@@ -4,14 +4,23 @@ export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img id="about-pic" src="../../assets/4056 (1).jpeg" alt="Picture of Daniel"></img>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      Developer Daniel Nelson comes to the world of full-stack coding by a circuitous path. Born and raised in Scotch Plains, New Jersey, 
+      Daniel set out to pursue a STEM education at Cornell University, but ultimately found his way into music composition. After achieving 
+      a PhD from the University of Pennsylvania in 2010 he continued to work as a composer, arranger, orchestrator and performer, always 
+      staying on the cutting edge of music software.
       </p>
+      <br>
+      </br>
+      <p>
+      In 2021, following a deep personal loss, Daniel returned to the world of tech, diving into computer science by way of the coding 
+      language, Python. Seeking structure and rigor for his working, he commenced a course of study in 2022 with the University of
+      Pennsylvania Full-Stack Web Development certificate program. Now he works in each new project to join together the disparate strands
+      of creativity, thoughtful architecture, careful process, and audience empathy that have characterized his artistic and technical
+      achievements throughout his life.
+      </p>
+      
     </div>
   );
 }
