@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Daniel-Nelson-React-Portfolio/static/css/main.fbdcd410.css",
+    "main.js": "/Daniel-Nelson-React-Portfolio/static/js/main.519d1811.js",
+    "static/media/IMG_2056.jpeg": "/Daniel-Nelson-React-Portfolio/static/media/IMG_2056.530c3896a96c5ae990ab.jpeg",
+    "static/media/4056 (1).jpeg": "/Daniel-Nelson-React-Portfolio/static/media/4056 (1).74c1d899c1e0a20b3adb.jpeg",
+    "static/media/filmfan.png": "/Daniel-Nelson-React-Portfolio/static/media/filmfan.c45ad1a32cd1e04f2f2b.png",
+    "static/media/Screen Shot 2022-03-24 at 4.23.17 PM.jpeg": "/Daniel-Nelson-React-Portfolio/static/media/Screen Shot 2022-03-24 at 4.23.17 PM.ae0aa5a79e6ffecb6abf.jpeg",
+    "static/media/Screen Shot 2022-03-22 at 4.06.20 PM.jpeg": "/Daniel-Nelson-React-Portfolio/static/media/Screen Shot 2022-03-22 at 4.06.20 PM.21ca91d8692e81c6488c.jpeg",
+    "static/media/B147618C-64A7-4AEE-9F96-4AE2D2767DD7_1_201_a.jpeg": "/Daniel-Nelson-React-Portfolio/static/media/B147618C-64A7-4AEE-9F96-4AE2D2767DD7_1_201_a.a3230140b12abea23bf0.jpeg",
+    "static/media/65581C0C-17DB-4BDE-ADBA-BE742076CC08_1_201_a.jpeg": "/Daniel-Nelson-React-Portfolio/static/media/65581C0C-17DB-4BDE-ADBA-BE742076CC08_1_201_a.e3bf3c1e40aef0707247.jpeg",
+    "static/media/56D110C2-B28A-42A3-AD9E-8807C032CB02_1_105_c.jpeg": "/Daniel-Nelson-React-Portfolio/static/media/56D110C2-B28A-42A3-AD9E-8807C032CB02_1_105_c.6fabc753c5b496cede7d.jpeg",
+    "static/media/CV.pdf": "/Daniel-Nelson-React-Portfolio/static/media/CV.d6695ce80d3d69b0918b.pdf",
+    "index.html": "/Daniel-Nelson-React-Portfolio/index.html",
+    "main.fbdcd410.css.map": "/Daniel-Nelson-React-Portfolio/static/css/main.fbdcd410.css.map",
+    "main.519d1811.js.map": "/Daniel-Nelson-React-Portfolio/static/js/main.519d1811.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbdcd410.css",
+    "static/js/main.519d1811.js"
+  ]
+}
