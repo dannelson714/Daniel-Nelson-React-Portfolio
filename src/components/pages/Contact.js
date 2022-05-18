@@ -30,13 +30,13 @@ function Contact() {
     const inputType = target.name;
 
     if (inputType === 'email' && !email) {
-      setErrorMessage('This is a required field')
+      setErrorMessage('Email is a required field')
     }
     if (inputType === 'name' && !name) {
-      setErrorMessage('This is a required field')
+      setErrorMessage('Name is a required field')
     }
     if (inputType === 'message' && !message) {
-      setErrorMessage('This is a required field')
+      setErrorMessage('Message is a required field')
     }
   }
 
