@@ -1,9 +1,11 @@
 import React from 'react';
 
+import CV from '../../assets/CV.pdf';
+
 export default function Resume() {
   return (
     <div>
-      <h1>Please <a href="../../assets/CV.pdf">view</a> my resume.</h1>
+      <h1>Please <a href={CV} >view</a> my resume.</h1>
       <p>
       <ul>
         <li>Dynamic & Reactive Web Development | React.js, JavaScript, HTML5, CSS3, Bootstrap</li>

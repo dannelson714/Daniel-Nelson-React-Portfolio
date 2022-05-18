@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/About.css';
 
 import danPic from '../../assets/4056 (1).jpeg';
 

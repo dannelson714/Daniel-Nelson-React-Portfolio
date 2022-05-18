@@ -25,6 +25,21 @@ function Contact() {
     }
   };
 
+  const handleOnBlur = (e) => {
+    const {target } = e;
+    const inputType = target.name;
+
+    if (inputType === 'email' && !email) {
+      setErrorMessage('This is a required field')
+    }
+    if (inputType === 'name' && !name) {
+      setErrorMessage('This is a required field')
+    }
+    if (inputType === 'message' && !message) {
+      setErrorMessage('This is a required field')
+    }
+  }
+
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
@@ -52,6 +67,7 @@ function Contact() {
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleOnBlur}
           type="email"
           placeholder="email"
         />
@@ -59,6 +75,7 @@ function Contact() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={handleOnBlur}
           type="text"
           placeholder="name"
         />
@@ -68,8 +85,9 @@ function Contact() {
           form="contactForm"
           name="message"
           rows="5"
-          cols="35"
+          cols="42"
           onChange={handleInputChange}
+          onBlur={handleOnBlur}
           placeholder="message"
         />
         <button form="contactForm" type="button" onClick={handleFormSubmit}>Submit</button>

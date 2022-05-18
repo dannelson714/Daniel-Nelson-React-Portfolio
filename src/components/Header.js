@@ -4,7 +4,8 @@ import './styles/Header.css';
 
 function Header(props) {
     return (
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron">
+        <h1>Daniel Nelson Professional Portfolio Website</h1>
         <div className={`container${props.fluid ? '-fluid' : ''}`}>
           {props.children}
         </div>
